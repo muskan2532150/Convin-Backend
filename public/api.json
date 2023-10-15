@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "category": "Economy",
+    "price": 30.0,
+    "estimatedArrivalTime": "10 minutes",
+    "type": "Sedan",
+    "img": "./images/sedan.jpeg",
+    "pickupLocation": "Downtown",
+    "dropOffLocation": "Airport"
+  },
+  {
+    "id": 2,
+    "category": "Premium",
+    "price": 50.0,
+    "estimatedArrivalTime": "15 minutes",
+    "type": "SUV",
+    "img": "./images/suv.jpg",
+    "pickupLocation": "Midtown",
+    "dropOffLocation": "Suburbs"
+  },
+  {
+    "id": 3,
+    "category": "Luxury",
+    "price": 100.0,
+    "estimatedArrivalTime": "20 minutes",
+    "type": "Sports Car",
+    "img": "./images/sport_car.jpg",
+    "pickupLocation": "Residential Area",
+    "dropOffLocation": "Luxury Hotel"
+  },
+  {
+    "id": 4,
+    "category": "Economy",
+    "price": 25.0,
+    "estimatedArrivalTime": "12 minutes",
+    "type": "Hatchback",
+    "img": "./images/hatchback.jpg",
+    "pickupLocation": "City Center",
+    "dropOffLocation": "Shopping Mall"
+  },
+  {
+    "id": 5,
+    "category": "Premium",
+    "price": 45.0,
+    "estimatedArrivalTime": "18 minutes",
+    "type": "SUV",
+    "img": "./images/suv.jpg",
+    "pickupLocation": "Downtown",
+    "dropOffLocation": "Business District"
+  },
+  {
+    "id": 6,
+    "category": "Luxury",
+    "price": 120.0,
+    "estimatedArrivalTime": "25 minutes",
+    "type": "Sports Car",
+    "img": "./images/sport_car.jpg",
+    "pickupLocation": "Residential Area",
+    "dropOffLocation": "Luxury Resort"
+  },
+  {
+    "id": 7,
+    "category": "Economy",
+    "price": 28.0,
+    "estimatedArrivalTime": "11 minutes",
+    "type": "Hatchback",
+    "img": "./images/hatchback.jpg",
+    "pickupLocation": "Suburbs",
+    "dropOffLocation": "Downtown"
+  },
+  {
+    "id": 8,
+    "category": "Premium",
+    "price": 55.0,
+    "estimatedArrivalTime": "16 minutes",
+    "type": "Sedan",
+    "img": "./images/sedan.jpeg",
+    "pickupLocation": "Airport",
+    "dropOffLocation": "Residential Area"
+  },
+  {
+    "id": 9,
+    "category": "Luxury",
+    "price": 110.0,
+    "estimatedArrivalTime": "22 minutes",
+    "type": "Sports Car",
+    "img": "./images/sport_car.jpg",
+    "pickupLocation": "Luxury Hotel",
+    "dropOffLocation": "City Center"
+  },
+  {
+    "id": 10,
+    "category": "Economy",
+    "price": 26.0,
+    "estimatedArrivalTime": "13 minutes",
+    "type": "Sedan",
+    "img": "./images/sedan.jpeg",
+    "pickupLocation": "Shopping Mall",
+    "dropOffLocation": "Downtown"
+  }
+]
