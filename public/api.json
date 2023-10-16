@@ -5,7 +5,7 @@
     "price": 30.0,
     "estimatedArrivalTime": "10 minutes",
     "type": "Sedan",
-    "img": "./images/sedan.jpeg",
+    "img": "/images/sedan.jpeg",
     "pickupLocation": "Downtown",
     "dropOffLocation": "Airport"
   },
@@ -15,7 +15,7 @@
     "price": 50.0,
     "estimatedArrivalTime": "15 minutes",
     "type": "SUV",
-    "img": "./images/suv.jpg",
+    "img": "/images/suv.jpg",
     "pickupLocation": "Midtown",
     "dropOffLocation": "Suburbs"
   },
@@ -25,7 +25,7 @@
     "price": 100.0,
     "estimatedArrivalTime": "20 minutes",
     "type": "Sports Car",
-    "img": "./images/sport_car.jpg",
+    "img": "/images/sport_car.jpg",
     "pickupLocation": "Residential Area",
     "dropOffLocation": "Luxury Hotel"
   },
@@ -35,7 +35,7 @@
     "price": 25.0,
     "estimatedArrivalTime": "12 minutes",
     "type": "Hatchback",
-    "img": "./images/hatchback.jpg",
+    "img": "/images/hatchback.jpg",
     "pickupLocation": "City Center",
     "dropOffLocation": "Shopping Mall"
   },
@@ -45,7 +45,7 @@
     "price": 45.0,
     "estimatedArrivalTime": "18 minutes",
     "type": "SUV",
-    "img": "./images/suv.jpg",
+    "img": "/images/suv.jpg",
     "pickupLocation": "Downtown",
     "dropOffLocation": "Business District"
   },
@@ -55,7 +55,7 @@
     "price": 120.0,
     "estimatedArrivalTime": "25 minutes",
     "type": "Sports Car",
-    "img": "./images/sport_car.jpg",
+    "img": "/images/sport_car.jpg",
     "pickupLocation": "Residential Area",
     "dropOffLocation": "Luxury Resort"
   },
@@ -65,7 +65,7 @@
     "price": 28.0,
     "estimatedArrivalTime": "11 minutes",
     "type": "Hatchback",
-    "img": "./images/hatchback.jpg",
+    "img": "/images/hatchback.jpg",
     "pickupLocation": "Suburbs",
     "dropOffLocation": "Downtown"
   },
@@ -75,7 +75,7 @@
     "price": 55.0,
     "estimatedArrivalTime": "16 minutes",
     "type": "Sedan",
-    "img": "./images/sedan.jpeg",
+    "img": "/images/sedan.jpeg",
     "pickupLocation": "Airport",
     "dropOffLocation": "Residential Area"
   },
@@ -85,7 +85,7 @@
     "price": 110.0,
     "estimatedArrivalTime": "22 minutes",
     "type": "Sports Car",
-    "img": "./images/sport_car.jpg",
+    "img": "/images/sport_car.jpg",
     "pickupLocation": "Luxury Hotel",
     "dropOffLocation": "City Center"
   },
@@ -95,7 +95,7 @@
     "price": 26.0,
     "estimatedArrivalTime": "13 minutes",
     "type": "Sedan",
-    "img": "./images/sedan.jpeg",
+    "img": "/images/sedan.jpeg",
     "pickupLocation": "Shopping Mall",
     "dropOffLocation": "Downtown"
   }
