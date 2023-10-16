@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useSelector } from "react-redux/es";
 import { Link, useNavigate, useParams } from "react-router-dom";
 
 const CarDetail = () => {
   const cars = useSelector((state) => state.car.data);
   const { id } = useParams();
+  const navigate = useNavigate();
+
   const FilterCar = cars.filter((car) => car.id === +id);
 
   if (FilterCar.length === 0) {
@@ -13,11 +15,8 @@ const CarDetail = () => {
 
   const car = FilterCar[0];
 
-  const HandleClickEvent = (car) => {
-    const navigate = useNavigate();
-    useEffect(() => {
-      navigate(`/booking/${car.id}`);
-    }, [navigate]);
+  const handleBookNowClick = () => {
+    navigate(`/booking/${car.id}`);
   };
 
   return (
@@ -56,7 +55,7 @@ const CarDetail = () => {
       </div>
       <div className="w-10/12 text-center">
         <button
-          onClick={HandleClickEvent(car)}
+          onClick={handleBookNowClick}
           className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 mt-4 text-center"
         >
           Book Now
