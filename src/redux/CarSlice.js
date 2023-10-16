@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   data: [],
+  bookingData: [],
 };
 
 export const CarThunk = createAsyncThunk("CarThunk", async () => {
@@ -13,20 +14,17 @@ export const CarSlice = createSlice({
   name: "Car",
   initialState,
   reducers: {
-    Booking: (state, action) => {
-      return {
-        ...state,
-        ...action.payload,
-      };
+    updateBookingData: (state, action) => {
+      state.bookingData = action.payload;
     },
   },
   extraReducers: (builder) => {
     builder.addCase(CarThunk.fulfilled, (state, action) => {
-      return { data: [...action.payload] };
+      state.data = [...action.payload];
     });
   },
 });
 
-export const { Booking } = CarSlice.actions;
+export const { updateBookingData } = CarSlice.actions;
 
 export default CarSlice.reducer;
