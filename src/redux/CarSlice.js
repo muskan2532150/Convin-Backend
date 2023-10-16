@@ -15,7 +15,7 @@ export const CarSlice = createSlice({
   initialState,
   reducers: {
     updateBookingData: (state, action) => {
-      state.bookingData = action.payload;
+      state.bookingData = [...state.bookingData, action.payload];
     },
   },
   extraReducers: (builder) => {
