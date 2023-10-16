@@ -59,7 +59,7 @@ const HomePage = () => {
             value={searchResults.pickupLocation}
             onChange={handleInputChange}
             placeholder="Enter Pickup Location"
-            className="w-full border p-2 rounded"
+            className="w-full border p-2 rounded focus:outline-none"
           />
         </div>
         <div className="mb-4">
@@ -70,7 +70,7 @@ const HomePage = () => {
             id="dropOffLocation"
             onChange={handleInputChange}
             placeholder="Enter Drop-off Location"
-            className="w-full border p-2 rounded"
+            className="w-full border p-2 rounded focus:outline-none"
           />
         </div>
         <div className="mb-4">
@@ -79,7 +79,7 @@ const HomePage = () => {
             name="selectedCategory"
             value={searchResults.selectedCategory}
             onChange={handleInputChange}
-            className="w-full border p-2 rounded"
+            className="w-full border p-2 rounded focus:outline-none"
           >
             <option value="">All Categories</option>
             {uniqueCategories.map((category) => (
@@ -118,7 +118,7 @@ const HomePage = () => {
                     <img
                       src={category.img}
                       alt={`Image of ${category.type} car`}
-                      className="w-full h-50 object-cover rounded-md"
+                      className="w-full h-40 object-cover rounded-md"
                     />
                     <h3 className="text-lg font-semibold">{category.name}</h3>
                     <p className="text-gray-600">{category.description}</p>
